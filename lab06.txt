@@ -1,0 +1,83 @@
+Script started on Tue Nov  5 21:29:38 2019
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ /[K./a.out
+The current URL is: Second.com
+List is full
+Oldest --> Newest
+-----------------
+Zeroth.com 
+First.com 
+Second.com 
+Third.com 
+Fourth.com 
+Fifth.com 
+Sixth.com 
+Seventh.com 
+Eighth.com 
+Nineth.com 
+Tenth.com *
+
+Newest --> Oldest
+-----------------
+Tenth.com *
+Nineth.com 
+Eighth.com 
+Seventh.com 
+Sixth.com 
+Fifth.com 
+Fourth.com 
+Third.com 
+Second.com 
+First.com 
+Zeroth.com 
+
+Oldest --> Newest
+-----------------
+Zeroth.com 
+First.com 
+Second.com 
+Third.com 
+Fourth.com 
+Fifth.com 
+Sixth.com 
+Seventh.com 
+Eighth.com *
+Nineth.com 
+Tenth.com 
+
+Newest --> Oldest
+-----------------
+Tenth.com 
+Nineth.com 
+Eighth.com *
+Seventh.com 
+Sixth.com 
+Fifth.com 
+Fourth.com 
+Third.com 
+Second.com 
+First.com 
+Zeroth.com 
+
+The current URL is: Eighth.com
+Oldest --> Newest
+-----------------
+Zeroth.com 
+First.com 
+Second.com 
+Third.com 
+Fourth.com 
+Fifth.com 
+Sixth.com 
+Seventh.com 
+Eighth.com 
+Yahoo.com 
+TenthButVisitedAfterYahoo.com *
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Nov  5 21:29:45 2019

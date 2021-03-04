@@ -1,0 +1,74 @@
+Script started on Thu Dec 12 21:33:42 2019
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ ./a.out i test.te[Kxt
+  Invalid history file path: test.txt.
+New history will be created. Max size?
+1000
+Command?  a
+URL to add:
+http://a.com
+Current URL: index 0, http://a.com
+Command?  a
+URL to add:
+http://b.com
+Current URL: index 1, http://b.com
+Command?  p
+History:
+   http://a.com 
+ * http://b.com 
+
+Command?  s
+Please input encryption key: key
+History saved to test.txt.
+Command?  p
+Please input decryption key
+key
+History:
+   http://a.com 
+ * http://b.com 
+
+Command?  p
+History:
+   http://a.com 
+ * http://b.com 
+
+Command?  u
+Please input new key: newkey
+Encryption key successfully changed to newkey, saving now.
+Please input encryption key: newkey
+Command?  p
+Please input decryption key
+newkey
+History:
+   http://a.com 
+ * http://b.com 
+
+Command?  q
+Please input encryption key: akey
+bash-3.2$ ./a.out i test.txt
+Please input decryption key
+akey
+Command?  p
+History:
+   http://a.com 
+ * http://b.com 
+
+Command?  s
+Please input encryption key: rightkey
+History saved to test.txt.
+Command?  p
+Please input decryption key
+wrongkey
+History:
+   mo|v)//a+xgk 
+ * mo|v)//b+xgk 
+
+Command?  q
+Please input encryption key: key
+bash-3.2$ exit
+exit
+
+Script done on Thu Dec 12 21:35:27 2019

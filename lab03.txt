@@ -1,0 +1,48 @@
+Script started on Wed Oct 16 16:48:35 2019
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ ./a.out
+493 cases of cough treated with an average wait time of 15.214807
+499 cases of fever treated with an average wait time of 15.771743
+547 cases of congestion treated with an average wait time of 14.931627
+532 cases of headache treated with an average wait time of 14.919549
+541 cases of blind treated with an average wait time of 15.481331
+505 cases of dead treated with an average wait time of 15.564950
+529 cases of seizure treated with an average wait time of 16.034783
+503 cases of mute treated with an average wait time of 15.902386
+530 cases of deaf treated with an average wait time of 15.961509
+460 cases of tired treated with an average wait time of 14.894783
+2573 male served with an average wait time of 15.311038
+2566 female served with an average wait time of 15.630826
+442 people were rejectedbash-3.2$ ./a.out
+527 cases of cough treated with an average wait time of 15.455787
+496 cases of fever treated with an average wait time of 16.272379
+474 cases of congestion treated with an average wait time of 14.798734
+492 cases of headache treated with an average wait time of 15.803862
+539 cases of blind treated with an average wait time of 15.063080
+511 cases of dead treated with an average wait time of 15.446575
+499 cases of seizure treated with an average wait time of 15.346293
+533 cases of mute treated with an average wait time of 15.701126
+517 cases of deaf treated with an average wait time of 16.108511
+555 cases of tired treated with an average wait time of 15.957297
+2556 male served with an average wait time of 15.431886
+2587 female served with an average wait time of 15.765597
+444 people were rejectedbash-3.2$ ./a.out
+541 cases of cough treated with an average wait time of 15.612015
+590 cases of fever treated with an average wait time of 15.226949
+494 cases of congestion treated with an average wait time of 15.581579
+457 cases of headache treated with an average wait time of 15.668053
+473 cases of blind treated with an average wait time of 15.887949
+513 cases of dead treated with an average wait time of 15.550487
+495 cases of seizure treated with an average wait time of 15.207879
+518 cases of mute treated with an average wait time of 15.511004
+523 cases of deaf treated with an average wait time of 14.898088
+485 cases of tired treated with an average wait time of 15.087629
+2511 male served with an average wait time of 15.461250
+2578 female served with an average wait time of 15.371839
+531 people were rejectedbash-3.2$ exit
+exit
+
+Script done on Wed Oct 16 16:48:55 2019
